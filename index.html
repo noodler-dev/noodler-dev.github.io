@@ -1,1 +1,106 @@
-Hello, World!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noodler</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background-color: #121212;
+            padding: 2rem 1rem;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #e0e0e0;
+        }
+
+        a {
+            color: #64b5f6;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #90caf9;
+            text-decoration: underline;
+        }
+
+        b {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .text-muted {
+            color: #b0b0b0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+
+            .container {
+                padding: 0 0.75rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Noodler</h1>
+        <p class="text-muted">You can't improve what you can't see.</p>
+
+        <p>Teams are spending more on tokens, infrastructure, and experimentation than ever before – but progress is
+            often slow, opaque, and frustrating. Without clear feedback loops, it's hard to know what's working, what
+            isn't, or how to improve reliably.</p>
+
+        <p>A recent MIT study found that <b>95% of organizations report little to no measurable ROI from their GenAI
+                initiatives</b>.</p>
+
+        <p>The problem isn't ambition. It's <i>visibility</i>.</p>
+
+        <p>AI applications behave differently from traditional software. LLM outputs are probabilistic,
+            context-dependent, and difficult to evaluate with conventional metrics.</p>
+
+        <p>We've built and shipped AI systems ourselves – and we've felt how easy it is to optimize the wrong thing, or
+            rely on intuition instead of evidence.</p>
+
+        <p><b>Noodler</b> is an open-source suite of evaluation tools for AI applications.</p>
+
+        <p>Our first product tackles observability, you can't improve what you can't see.</p>
+
+        <p>See what we're building <a href="https://github.com/noodler-dev/noodler">here</a>.</p>
+    </div>
+</body>
+
+</html>
